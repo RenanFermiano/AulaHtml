@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="_imagens/telemarketing-icon-68.png">
     <meta name="viewport" content="width=], initial-scale=1.0">
     <title>Fale Conosco - Formulário</title>
     <style>
@@ -15,11 +16,12 @@
         }
 
         header, footer {
-            background-color: #000000;
-            color: rgb(17, 32, 117);
+            background-color: #ff0000;
+            color: rgb(255, 255, 255);
             padding: 0,0%;
             text-align: center;
             flex: 0 0 auto;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
 
         main {
@@ -28,19 +30,20 @@
         }
 
         nav {
-            background-color: #aad3df;
+            background-color: #ffffff;
             padding: 20px;
             width: 200px;
         }
 
         nav a {
             display: block;
-            color: #333;
+            color: #ffffff;
             text-decoration: none;
             padding: 10px;
             margin-bottom: 10px;
-            background-color: #fff;
+            background-color: #ff0000;
             border-radius: 5px;
+
         }
 
         nav a:hover {
@@ -54,7 +57,7 @@
         }
 
         aside {
-            background-color: #aad3df;
+            background-color: #00c3ff;
             padding: 20px;
             width: 200px;
         }
@@ -68,76 +71,67 @@
     <header>
         <img src="_imagens/casa.jpg" alt="Voltar para página principal" width="20px" height="20px">
         <img src="_imagens/barras.jpg" alt="Abrir Menu" width="20px"> Menu 
-        <img src="_imagens/lupa-removebg-preview.png" alt="" width="20px">Busca
+        <img src="_imagens/lupa-removebg-preview.png" alt="" width="20px"> Buscar
     </header>
 
     <main>
         <nav>
-            <a href="#secao1">Seção 1</a>
-            <a href="#secao2">Seção 2</a>
-            <a href="#secao3">Seção 3</a>
+            <a href="#secao1">Página Principal</a>
+            <a href="#secao2">Fale Conosco</a>
+            <a href="#secao3">Dados da Empresa</a>
         </nav>
 
-        <section id="Faleconosco">
-            <h2 style="font-family:sans-serif"> FALE CONOSCO - FORMULÁRIO <img src="_imagens/teclado.jpg" alt="banner da home" width="600px" height="50px"> </h2>
+    <section>
+                <h2 style="font-family:sans-serif; font-size: xx-large;"><center> FALE CONOSCO - FORMULÁRIO </center>
+            </br>
+                
+                <center><img src="_imagens/FaleCom_Layout.jpg" alt="banner da home" width="1500px" height="150px"></center> </h2>
 
-                <p style="font-family:sans-serif">Bem-vindo ao nosso formulário de contato! Sabemos que sua opinião é valiosa e apreciamos o tempo que você está dedicando para se comunicar conosco. Este formulário é a sua porta de entrada para nos informar sobre qualquer dúvida, sugestão, elogio ou preocupação que você possa ter em relação aos nossos produtos, serviços ou experiência geral.</p>
-            
-                <p style="font-family:sans-serif">Nosso objetivo é garantir que cada interação com nossos clientes seja positiva e construtiva. Seja para esclarecer uma dúvida sobre um produto específico, compartilhar sua experiência recente conosco, ou até mesmo para nos ajudar a identificar áreas em que podemos melhorar, este é o lugar para fazer isso.</p>
-                
-                <p style="font-family:sans-serif">Por favor, preencha o formulário abaixo com o máximo de detalhes possível. Quanto mais informações você fornecer, melhor poderemos entender e resolver sua solicitação. Nossa equipe está pronta para responder prontamente a todas as suas perguntas e feedback.</p>
-                
-                <p style="font-family:sans-serif">Obrigado por escolher se comunicar conosco. Estamos ansiosos para ouvir suas opiniões e trabalhar juntos para continuar aprimorando nossos produtos e serviços para atender às suas necessidades.</p>
-           
-                <form>
-                    <label  style="font-family:sans-serif" for="name">Nome</label>
+                <br>
+                    <p style="font-family:sans-serif">Bem-vindo ao nosso formulário de contato! Sabemos que sua opinião é valiosa e apreciamos o tempo que você está dedicando para se comunicar conosco. Este formulário é a sua porta de entrada para nos informar sobre qualquer dúvida, sugestão, elogio ou preocupação que você possa ter em relação aos nossos produtos, serviços ou experiência geral.</p>
+                    
+                    <p style="font-family:sans-serif">Nosso objetivo é garantir que cada interação com nossos clientes seja positiva e construtiva. Seja para esclarecer uma dúvida sobre um produto específico, compartilhar sua experiência recente conosco, ou até mesmo para nos ajudar a identificar áreas em que podemos melhorar, este é o lugar para fazer isso.</p>
+                    
+                    <p style="font-family:sans-serif">Por favor, preencha o formulário abaixo com o máximo de detalhes possível. Quanto mais informações você fornecer, melhor poderemos entender e resolver sua solicitação. Nossa equipe está pronta para responder prontamente a todas as suas perguntas e feedback.</p>
+                    
+                    <p style="font-family:sans-serif">Obrigado por escolher se comunicar conosco. Estamos ansiosos para ouvir suas opiniões e trabalhar juntos para continuar aprimorando nossos produtos e serviços para atender às suas necessidades.</p>
+                    
+                </br>
+                <br>
+                    <label  style="font-family:sans-serif" for="name">Nome Completo</label>
                     <input type="text" id="name">
                     <hr><br>
-                    <input type="button" value="Clique aqui">
-                    <hr><br>
-                    <label for="checkbox-example">Exemplo type checkbox</label>
-                    <input type="checkbox" id="checkbox-example">                 
-                    <hr><br>
-                    <label for="date-example">Exemplo type date</label>
+                    <label for="date-example">Data de Nascimento</label>
                     <input type="date" id="date-example">
                     <hr><br>
-                    <label for="email-example">Exemplo type e-mail</label>
+                    <label for="email-example">E-mail</label>
                     <input type="email" id="email-example">
                     <hr><br>
-                    <label for="file-example">Exemplo type file</label>
-                    <input type="file" id="file-example">
+                    <label for="tel-example">Telefone</label>
+                    <input type="tel" id="tel-example">
                     <hr><br>
-                    <label for="number-example">Exemplo type number</label>
-                    <input type="number" id="number-example">
-                    <hr><br>
-                    <label for="password-example">Exemplo type password</label>
+                    <label for="password-example">Senha</label>
                     <input type="password" id="password-example">
                     <hr><br>
-                    <label for="radio-example">Exemplo type radio</label>
-                    <input type="radio" id="radio-example">
+                    <label for="password-example"> Confirmar Senha</label>
+                    <input type="password" id="password-example">
                     <hr><br>
-                    <label for="range-example">Exemplo type range</label>
-                    <input type="range" id="range-example">
+                    <label for="mensagem"><h4>Mensagem:</h4></label>
+                    <textarea id="mensagem" name="mensagem" rows="20" cols="220" maxlength="200" minlength="100" placeholder="Digite aqui sua mensagem"></textarea>
+                    <br>
+                    <br>
+                    <center><input type="submit" id="btn-enviar" name="btn-enviar" required; style="height: 70px; width: 700px ;"></center>
+                    <br>
                     <hr><br>
-                    <label for="search-example">Exemplo type search</label>
-                    <input type="search" id="search-example">
-                    <hr><br>
-                    <input type="submit" id="btn-enviar" name="btn-enviar" required>
-                    <hr><br>
-                    <label for="tel-example">Exemplo type tel</label>
-                    <input type="tel" id="tel-example">
+
                 </form>
            
         </section>
  
-        <aside>
-            <h2>Anúncios</h2>
-            <!-- Coloque aqui os anúncios -->
-        </aside>
     </main>
 
     <footer>
-        <p>&copy; 2024 Ciência de Dados - Layout</p>
+        <p>&copy; 2024 Ciência de Dados - Fale Conosco</p>
     </footer>
 </body>
 </html>
