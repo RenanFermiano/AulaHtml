@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Fale Conosco - Formulário</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header, footer {
+            background-color: #000000;
+            color: rgb(17, 32, 117);
+            padding: 0,0%;
+            text-align: center;
+            flex: 0 0 auto;
+        }
+
+        main {
+            display: flex;
+            flex: 1;
+        }
+
+        nav {
+            background-color: #aad3df;
+            padding: 20px;
+            width: 200px;
+        }
+
+        nav a {
+            display: block;
+            color: #333;
+            text-decoration: none;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #ffffff;
+        }
+
+        section {
+            flex: 1;
+            background-color: #ffffff;
+            padding: 20px;
+        }
+
+        aside {
+            background-color: #aad3df;
+            padding: 20px;
+            width: 200px;
+        }
+
+        footer {
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="_imagens/casa.jpg" alt="Voltar para página principal" width="20px" height="20px">
+        <img src="_imagens/barras.jpg" alt="Abrir Menu" width="20px"> Menu 
+        <img src="_imagens/lupa-removebg-preview.png" alt="" width="20px">Busca
+    </header>
+
+    <main>
+        <nav>
+            <a href="#secao1">Seção 1</a>
+            <a href="#secao2">Seção 2</a>
+            <a href="#secao3">Seção 3</a>
+        </nav>
+
+        <section id="Faleconosco">
+            <h2 style="font-family:sans-serif"> FALE CONOSCO - FORMULÁRIO <img src="_imagens/teclado.jpg" alt="banner da home" width="600px" height="50px"> </h2>
+
+                <p style="font-family:sans-serif">Bem-vindo ao nosso formulário de contato! Sabemos que sua opinião é valiosa e apreciamos o tempo que você está dedicando para se comunicar conosco. Este formulário é a sua porta de entrada para nos informar sobre qualquer dúvida, sugestão, elogio ou preocupação que você possa ter em relação aos nossos produtos, serviços ou experiência geral.</p>
+            
+                <p style="font-family:sans-serif">Nosso objetivo é garantir que cada interação com nossos clientes seja positiva e construtiva. Seja para esclarecer uma dúvida sobre um produto específico, compartilhar sua experiência recente conosco, ou até mesmo para nos ajudar a identificar áreas em que podemos melhorar, este é o lugar para fazer isso.</p>
+                
+                <p style="font-family:sans-serif">Por favor, preencha o formulário abaixo com o máximo de detalhes possível. Quanto mais informações você fornecer, melhor poderemos entender e resolver sua solicitação. Nossa equipe está pronta para responder prontamente a todas as suas perguntas e feedback.</p>
+                
+                <p style="font-family:sans-serif">Obrigado por escolher se comunicar conosco. Estamos ansiosos para ouvir suas opiniões e trabalhar juntos para continuar aprimorando nossos produtos e serviços para atender às suas necessidades.</p>
+           
+                <form>
+                    <label  style="font-family:sans-serif" for="name">Nome</label>
+                    <input type="text" id="name">
+                    <hr><br>
+                    <input type="button" value="Clique aqui">
+                    <hr><br>
+                    <label for="checkbox-example">Exemplo type checkbox</label>
+                    <input type="checkbox" id="checkbox-example">                 
+                    <hr><br>
+                    <label for="date-example">Exemplo type date</label>
+                    <input type="date" id="date-example">
+                    <hr><br>
+                    <label for="email-example">Exemplo type e-mail</label>
+                    <input type="email" id="email-example">
+                    <hr><br>
+                    <label for="file-example">Exemplo type file</label>
+                    <input type="file" id="file-example">
+                    <hr><br>
+                    <label for="number-example">Exemplo type number</label>
+                    <input type="number" id="number-example">
+                    <hr><br>
+                    <label for="password-example">Exemplo type password</label>
+                    <input type="password" id="password-example">
+                    <hr><br>
+                    <label for="radio-example">Exemplo type radio</label>
+                    <input type="radio" id="radio-example">
+                    <hr><br>
+                    <label for="range-example">Exemplo type range</label>
+                    <input type="range" id="range-example">
+                    <hr><br>
+                    <label for="search-example">Exemplo type search</label>
+                    <input type="search" id="search-example">
+                    <hr><br>
+                    <input type="submit" id="btn-enviar" name="btn-enviar" required>
+                    <hr><br>
+                    <label for="tel-example">Exemplo type tel</label>
+                    <input type="tel" id="tel-example">
+                </form>
+           
+        </section>
+ 
+        <aside>
+            <h2>Anúncios</h2>
+            <!-- Coloque aqui os anúncios -->
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ciência de Dados - Layout</p>
+    </footer>
+</body>
+</html>
