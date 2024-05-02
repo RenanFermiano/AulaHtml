@@ -1,6 +1,6 @@
 html,
 body {
-    height: 100%;
+    height: 170%;
 }
 
 body {
@@ -92,6 +92,138 @@ body {
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
     background-image: url(_imagens/thumb06.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.list-item7 {
+    flex-basis: 280px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+    background-image: url(_imagens/fenda.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.list-item8 {
+    flex-basis: 280px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+    background-image: url(_imagens/yecenario.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.list-item9 {
+    flex-basis: 280px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+    background-image: url(_imagens/TaylorCenario.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.list-item10 {
+    flex-basis: 280px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+    background-image: url(_imagens/pantano.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.list-item11 {
+    flex-basis: 280px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+    background-image: url(_imagens/psg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.list-item12 {
+    flex-basis: 280px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+    background-image: url(_imagens/casa1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.list-item13 {
+    flex-basis: 280px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+    background-image: url(_imagens/drive2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.list-item14 {
+    flex-basis: 280px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+    background-image: url(_imagens/explosao.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.list-item15 {
+    flex-basis: 280px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+    background-image: url(_imagens/rota66.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.list-item16 {
+    flex-basis: 280px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+    background-image: url(_imagens/casajack.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.list-item17 {
+    flex-basis: 280px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+    background-image: url(_imagens/pngtree-an-office-cubicle-with-many-things-on-it-image_2672430.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.list-item18 {
+    flex-basis: 280px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+    background-image: url(_imagens/american.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
