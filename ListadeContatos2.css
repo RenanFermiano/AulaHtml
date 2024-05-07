@@ -103,7 +103,7 @@ body {
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
     background-image: url(_imagens/fenda.jpg);
-    background-size: 100%;
+    background-size: 300px;
     background-repeat: no-repeat;
 }
 
@@ -114,8 +114,10 @@ body {
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
     background-image: url(_imagens/yecenario.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-size: 280px;
+    background-repeat: no-repeat; 
+    background-position-x: 0px;
+    background-position-y: -23%;
 }
 
 .list-item9 {
@@ -125,8 +127,10 @@ body {
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
     background-image: url(_imagens/TaylorCenario.jpg);
-    background-size: 100%;
+    background-size: 280px;
     background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: -11%;
 }
 
 .list-item10 {
@@ -136,7 +140,7 @@ body {
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
     background-image: url(_imagens/pantano.jpg);
-    background-size: 100%;
+    background-size: 300px;
     background-repeat: no-repeat;
 }
 
@@ -147,7 +151,7 @@ body {
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
     background-image: url(_imagens/psg.jpg);
-    background-size: 100%;
+    background-size: 335px;
     background-repeat: no-repeat;
 }
 
@@ -158,8 +162,10 @@ body {
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
     background-image: url(_imagens/casa1.jpg);
-    background-size: 100%;
+    background-size: 280px;
     background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: -110px;
 }
 
 .list-item13 {
@@ -168,8 +174,8 @@ body {
     border-radius: 5px;
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
-    background-image: url(_imagens/drive2.jpg);
-    background-size: 100%;
+    background-image: url(_imagens/drive.jpg);
+    background-size: 300px;
     background-repeat: no-repeat;
 }
 
@@ -182,6 +188,7 @@ body {
     background-image: url(_imagens/explosao.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+    background-position-y: -55px;
 }
 
 .list-item15 {
@@ -191,8 +198,9 @@ body {
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
     background-image: url(_imagens/rota66.jpg);
-    background-size: 100%;
+    background-size: 285px;
     background-repeat: no-repeat;
+    background-position-y: -5px;
 }
 
 .list-item16 {
@@ -204,6 +212,8 @@ body {
     background-image: url(_imagens/casajack.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: -7%;
 }
 
 .list-item17 {
@@ -213,7 +223,7 @@ body {
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
     background-image: url(_imagens/pngtree-an-office-cubicle-with-many-things-on-it-image_2672430.jpg);
-    background-size: 100%;
+    background-size: 300px;
     background-repeat: no-repeat;
 }
 
@@ -224,7 +234,7 @@ body {
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
     background-image: url(_imagens/american.jpg);
-    background-size: 100%;
+    background-size: 300px;
     background-repeat: no-repeat;
 }
 

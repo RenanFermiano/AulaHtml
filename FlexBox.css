@@ -1,0 +1,23 @@
+body {
+    background-image: url(_imagens/fundo2.jpg);
+    height: 170%;
+
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    gap: 10px 20px;
+    row-gap: 10px;
+    column-gap: 20px;
+    border: black;
+    background: blue;
+}
+
+.li {
+flex-basis: 280px;
+background-color: white;
+border-radius: 5px;
+text-align: center;
+box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+}
