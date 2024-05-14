@@ -1,23 +1,128 @@
 body {
     background-image: url(_imagens/fundo2.jpg);
-    height: 170%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1000%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
 
+}
+
+.titulo{
+    font-size: xx-large;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    margin-top: 100px;
+    margin-bottom: 10px;
 }
 
 .container {
-    display: flex;
-    gap: 10px;
-    gap: 10px 20px;
-    row-gap: 10px;
-    column-gap: 20px;
-    border: black;
-    background: blue;
+    grid-row: inherit;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
 }
 
-.li {
-flex-basis: 280px;
-background-color: white;
-border-radius: 5px;
-text-align: center;
-box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+.box {
+    flex: 1;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1000%;
+    padding: 100px;
+    border-radius: 0px;
+    box-shadow: 0 10px 20px -6px black;
+    display: flex;
+    flex-direction: column;
+    margin: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 500px;
+}
+
+.list {
+    width: 90%;
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.list-item {
+    flex-basis: 280px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+    background-image: url(_imagens/seletor.jpg);
+    background-size: 1000%;
+    background-repeat: no-repeat;
+    margin-top: 120px;
+}
+
+.list-item2 {
+    flex-basis: 280px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+    background-image: url(_imagens/posicao.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 120px;
+}
+
+.list-item3 {
+    flex-basis: 280px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+    background-image: url(_imagens/font.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 120px;
+}
+
+.list-item4 {
+    flex-basis: 280px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+    background-image: url(_imagens/flexbox.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 120px;
+}
+
+.list-item5 {
+    flex-basis: 280px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+    background-image: url(_imagens/grid.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 120px;
+}
+
+.list-item6 {
+    flex-basis: 280px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+    background-image: url(_imagens/semantica.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 120px;
+}
+
+.list-item__action {
+    display: flex;
+    background-color: #e5e5e5;
+    padding: 16px;
+    justify-content: space-evenly;
+    gap: 16px;
 }
