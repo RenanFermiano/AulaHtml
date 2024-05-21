@@ -1,18 +1,19 @@
 /*
 
-% - mod
-== - igualdade(comp.)
-= - atribuição
-!= - diferente
-'' ou "" - string
-=== - comparação escrite
-&& - e (lógico)
-|| - ou (lógico)
-+ - concatenar (juntar)
+% -> mod - resto da divisão
+== -> igualdade(comp.)
+= -> atribuição
+!= -> diferente
+'' ou "" -> string
+=== -> comparação escrite
+&& -> e (lógico)
+|| -> ou (lógico)
++ -> concatenar (juntar)
 //vazio (null): para deixar a variavel sem valor de maneira proposital
 //indefinido (undefined): verificar se a variavel foi definida
-float - tipo flutuante (1.432)
-
+float -> tipo flutuante (1.432)
++= -> somapares = somapares + i
+i++ -> i= i + 1
 */
 
 /*
@@ -33,6 +34,7 @@ if(tipoDoFuncionario =="estagiario" || tipoDoFuncionario == "clt"){
     }
 */
 
+/*
 var dia;
 switch (new Date(). getDay()){
 case 0:
@@ -50,4 +52,36 @@ case 5:
 case 6:
     dia = "sábado"; break;
 }
-console.log("hoje é" + dia)
+console.log("hoje é " + dia)
+*/
+
+/*
+const carro = ["Fiat","Volvo","BMW"];
+for (var i=0;i<carro.length;i++){
+    document.write(carro[i] + "<br>");
+}
+document.getElementById("demo").innerHTML = carro
+*/
+
+/*
+var txt = "";
+var pessoa = {fname:"John", name:"josé", idade:25}
+
+for (var x in pessoa) {
+    txt = txt + " " + pessoa [x];
+}
+*/
+
+/*
+var somapares = 0;
+var i = 1;
+
+while(true) {
+    if (i % 2 != 0)
+    continue;
+somapares += i;
+if (i == 10)
+break;
+i++;
+}
+*/
