@@ -1,5 +1,5 @@
-var = idade;
-var = cnh ;
+var idade;
+var cnh ;
 
 if (idade >=18 && cnh == true){
    console.log("Apto a Dirigir");
