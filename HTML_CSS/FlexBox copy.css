@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(_imagens/fundo2.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200%;
+    }
+
+    .container {
+    text-align: center;
+    }
+
+    h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+    color: white;
+    }
+
+    h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+    }
+
+    .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    }
+
+    .box {
+    flex: 1;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding: 100px;
+    border-radius: 0px;
+    box-shadow: 0 10px 20px -6px black;
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    }
+
+    .item {
+    background: url(_imagens/seletor.jpg) no-repeat center center / cover;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    font-size: 1.8em;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border: 2px solid #000;
+    }
+
+    .item2 {
+    background: url(_imagens/posicao.jpg) no-repeat center center / cover;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    font-size: 1.8em;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border: 2px solid #000;
+    }
+
+    .item3 {
+    background: url(_imagens/font.jpg) no-repeat center center / cover;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    font-size: 1.8em;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border: 2px solid #000;
+    }
+
+    .item4 {
+    background: url(_imagens/flexbox.jpg) no-repeat center center / cover;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    font-size: 1.8em;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border: 2px solid #000;
+    }
+
+    .item5 {
+    background: url(_imagens/grid.jpg) no-repeat center center / cover;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    font-size: 1.8em;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border: 2px solid #000;
+    }
+
+    .item6 {
+    background: url(_imagens/semantica.jpg) no-repeat center center / cover;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: rgb(255, 255, 255);
+    font-size: 1.8em;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border: 2px solid #000;
+    }
+
+    .list-item__action {
+    display: flex;
+    background-color: #000000;
+    padding: 16px;
+    border: 0.5px solid #ffffff;
+    height: 45px;
+    width: 500px;
+    justify-content: space-evenly;
+    gap: 16px;
+    }
