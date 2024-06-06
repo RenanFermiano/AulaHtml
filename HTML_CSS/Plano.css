@@ -43,6 +43,7 @@ body {
 .header__nav a:hover {
     text-decoration: underline;
     background-color: #cbe300;
+    color: #1f262c;
 }
 
 .header__nav--active{
@@ -109,5 +110,5 @@ body {
 .preco-plan__cta:hover {
     outline: 2px solid #cbe300;
     background-color: transparent;
-    color: white;
+    color: #ffffff;
 }
