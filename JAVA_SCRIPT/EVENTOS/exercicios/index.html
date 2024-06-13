@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <h2 class="">Eventos em elementos HTML</h2>
+    
+    <p onmouseover="this.style.color = 'red'";
+    onmouseout="this.style.color = 'black'"
+    >Passe o mouse aqui para mudar a cor do texto.</p>
+
+    <button onclick="alert('Botão Clicado!')">Clique aqui</button>
+
+    <input 
+        type="text" 
+        placeholder="Digite aqui" 
+        onfocus="this.value = 'campo em foco'"
+        onblur="this.vaalue = '';"
+        />
+        
+    <img 
+        src="img/imagem1.jpg" 
+        alt="Imagem misteriosa" 
+        onmouseover="this.src='img/imagem1'"
+        onmouseout="this.src='img/imagem1'"
+        />
+</body>
+</html>
