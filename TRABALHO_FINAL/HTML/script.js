@@ -2,7 +2,6 @@ function addToCart(product) {
     alert(product + " foi adicionado ao carrinho!");
 }
 
-// Carregar produtos dinamicamente
 document.addEventListener('DOMContentLoaded', function() {
     fetch('data/products.json')
         .then(response => response.json())
