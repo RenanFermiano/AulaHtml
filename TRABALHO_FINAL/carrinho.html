@@ -1,13 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="Carrinho.css">
 </head>
 <body>
-    <h1>carrinho</h1>
-    
+    <header>
 
+        <p class="logo">Voult</p> 
+        
+        <input class="pesquisa" type="text" id="pesquisa" placeholder="O que você está procurando?">
+        
+        <nav>
+            <ul>
+                <li><a href="Indice.html">Início</a></li>
+                <li><a href="Produtos.html">Produtos</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Carrinho de Compras</h1>
+    <div id="carrinho"></div>
+    <button onclick="finalizarCompra()">Finalizar Compra</button>
+    <a href="Indice.html">Voltar ao Catálogo</a>
+
+    <script src="script.js"></script>
 </body>
 </html>
