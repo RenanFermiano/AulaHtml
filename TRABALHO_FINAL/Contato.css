@@ -1,44 +1,28 @@
 body {
     font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #000000;
-    font-weight: lighter;
-    margin: 5%;
-    margin-top: 0;
-    padding: 0;
     background-color: #ffffff;
+    text-align: center;
 }
 
 header {
     background-color: #000000;
     color: rgb(255, 255, 255);
-    padding: 10px 0;
+    padding: 10px;
     text-align: center;
     font-size: 50%;
-    margin-left: 0;
-    margin-right: 0;
 }
 
 
-.logo {
-    font-size: xx-large;
-    text-align: left;
-    padding-left: 5%;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #ffffff;
-    font-weight: lighter;
-    display:table;
-    margin-right: 10%;
+.search-container {
+    text-align: center;
 }
 
-.pesquisa {
-    border-radius: 20%;
-    display: inline ;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 200px;
-    padding-right: 200px;
-    border-style:initial;
-    display:inline;
+.search-bar {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
 nav ul {
@@ -66,15 +50,9 @@ h1, h2 {
     color: #333;
 }
 
-#catalogo, #carrinho, #informacoes-contato, #formulario-contato {
-    margin: 20px 0;
-}
-
-.produto {
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin: 10px;
-    width: 200px;
+#catalogo, #carrinho, #formulario-contato {
+    text-align: left;
+    margin: 5%;
 }
 
 button {
@@ -95,4 +73,18 @@ input, textarea {
     margin: 5px 0 20px;
     border: 1px solid #ddd;
     box-sizing: border-box;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+button {
+    margin: 5%;
 }

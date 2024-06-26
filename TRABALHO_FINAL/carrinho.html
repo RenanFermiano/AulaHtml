@@ -2,16 +2,15 @@
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
-    <title>Carrinho de Compras</title>
+    <title>Vault - Shoes Shop</title>
     <link rel="stylesheet" href="Carrinho.css">
 </head>
 <body>
     <header>
-
-        <p class="logo">Voult</p> 
-        
-        <input class="pesquisa" type="text" id="pesquisa" placeholder="O que você está procurando?">
-        
+        <ul>
+            <img src="imagens/vault.jpg" alt="" width="20%">
+            <input class="search-bar" type="text" id="pesquisa" placeholder="O que você está procurando?"></p>
+        </ul>
         <nav>
             <ul>
                 <li><a href="Indice.html">Início</a></li>
@@ -23,9 +22,15 @@
     </header>
     <h1>Carrinho de Compras</h1>
     <div id="carrinho"></div>
+    <div>
+        <p>Seu carrinho está vazio</p>
+        <img src="imagens/4295.png" alt="">
+    </div>
     <button onclick="finalizarCompra()">Finalizar Compra</button>
     <a href="Indice.html">Voltar ao Catálogo</a>
 
-    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2024 Vault</p>
+    </footer>
 </body>
 </html>
