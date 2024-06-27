@@ -52,30 +52,20 @@ main {
     padding: 20px;
 }
 
-h1, h2 {
+h1 {
     color: #333;
 }
 
-#resumo-carrinho {
-    margin: 20px 0;
+#catalogo, #carrinho {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-form {
-    display: inline-block;
-    text-align: left;
-    max-width: 500px;
-    margin: auto;
-}
-
-label {
-    display: block;
-    margin-top: 10px;
-}
-
-input {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
+.produto {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
 }
 
 button {
@@ -85,8 +75,6 @@ button {
     border: none;
     cursor: pointer;
     justify-content: center;
-    width: 100%;
-    margin-top: 20px;
 }
 
 button:hover {
@@ -101,4 +89,8 @@ footer {
     position: relative;
     width: 100%;
     bottom: 0;
+}
+
+button {
+    margin: 5%;
 }

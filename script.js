@@ -33,37 +33,20 @@ function carregarCarrinho() {
         produtoDiv.className = 'produto';
         produtoDiv.innerHTML = `
             <h2>${produto.nome}</h2>
-            <p>
-
-            function carregarResumoCarrinho() {
-    const carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
-    const resumoDiv = document.getElementById('resumo-carrinho');
-
-    if (carrinho.length === 0) {
-        resumoDiv.innerHTML = '<p>O carrinho está vazio.</p>';
-        return;
-    }
-
-    resumoDiv.innerHTML = '<h2>Resumo do Carrinho</h2>';
-
-    carrinho.forEach(produto => {
-        const produtoDiv = document.createElement('div');
-        produtoDiv.className = 'produto';
-        produtoDiv.innerHTML = `
-            <h2>${produto.nome}</h2>
             <p>Preço: €${produto.preco}</p>
-            <p>Quantidade: ${produto.quantidade}</p>;
-        resumoDiv.appendChild(produtoDiv);
+            <p>Quantidade: ${produto.quantidade}</p>
+        `;
+        carrinhoDiv.appendChild(produtoDiv);
     });
 }
 
-function processarPagamento() {
-    // Aqui você pode adicionar validações e processar o pagamento
-    alert('Compra finalizada com sucesso!');
+function finalizarCompra() {
+    alert('Compra finalizada!');
     localStorage.removeItem('carrinho');
-    window.location.href = 'Indice.html'; // Redireciona para a página inicial após a compra
-    return false; // Evita o recarregamento da página
+    carregarCarrinho();
 }
 
-// Carrega o resumo do carrinho ao abrir a página de finalização
-document.addEventListener('DOMContentLoaded', carregarResumoCarrinho);
+// Carrega o carrinho quando a página do carrinho é aberta
+if (document.getElementById('carrinho')) {
+    carregarCarrinho();
+}
